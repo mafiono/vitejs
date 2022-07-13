@@ -1,4 +1,6 @@
-import './style.css'
+import 'connect-history-api-fallback';
+import 'connect'
+import ''
 
 document.querySelector('#app').innerHTML = `
 <div class="pageContainer">
