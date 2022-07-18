@@ -10,6 +10,7 @@
     <script src="js/cookie.js" defer="defer" async=""></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="AXmB2WX4QXvnCngE1XnM8qSOw-g5L3G7gz2tQMMmDFY" />
     <link rel="alternate" hreflang="en" href="https://nuxgame.com/template">
     <link rel="alternate" hreflang="pt-br" href="https://nuxgame.com/pt-br/template">
     <link rel="alternate" hreflang="fr" href="https://nuxgame.com/fr/template">
@@ -73,35 +74,15 @@
     <link rel="stylesheet" href="css/media.css">
     <meta name="dmca-site-verification" content="a1VuR1JBQ25JcGNjLzExV2pYUENjQT090">
     <!-- Facebook Pixel Code -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async="" src="js/js.js"></script>
-    <script>
-        //for google tools
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-170660750-1', {
-            'send_page_view': false
-        });
-        gtag('event', 'page_view', {
-            'event_callback': function(obj) {
-                console.log('Google Analytics is ready');
-                gtag('get', obj, 'client_id', (client_id) => {
-// do something with client_id
-                    window.client_Id = client_id;
-                    console.log(window.client_Id);
-                });
-            }
-        });
-        setTimeout(function() {
-            gtag('event', location.pathname, {
-                'event_category': 'New Visitor'
-            });
-        }, 15000);
-        //for google tools
-    </script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QS9CGR80P1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QS9CGR80P1');
+</script>
     <script type="text/javascript" async="" src="js/analytics.js"></script>
     <script type="text/javascript" id="zsiqscript" defer="defer" src="js/widget.js"></script>
     <script src="js/178575414078861.js" async=""></script>
